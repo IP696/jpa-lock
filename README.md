@@ -23,7 +23,7 @@
 
 
 скрипт таблицы
-
+```
 create table if not exists products
 (
 	id bigserial not null
@@ -37,6 +37,6 @@ create table if not exists products
 );
 
 create unique index if not exists products_id_uindex on products (id);
-
+```
 
 в данном примере реализована эта задача путем блокировки на базе, с использованием базы  PostgreSQL. 
